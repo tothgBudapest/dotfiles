@@ -1,0 +1,4 @@
+#!/bin/zsh
+for file in ~/.zprofile.d/*; do
+  \. "$file"
+done

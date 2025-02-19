@@ -1,0 +1,45 @@
+[credential]
+	helper = osxkeychain
+
+[color]
+	ui = true
+
+[commit]
+	gpgsign = true
+
+[core]
+	autocrlf     = false
+	editor       = vim
+  excludesFile = ~/.gitignore
+	ignorecase   = false
+
+[filter "lfs"]
+	clean    = git-lfs clean -- %f
+	process  = git-lfs filter-process
+	required = true
+	smudge   = git-lfs smudge -- %f
+
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[hub]
+	protocol = https
+
+[init]
+	defaultBranch = main
+
+[pull]
+	ff = only
+
+[push]
+	followtags = true
+
+[rerere]
+	enabled = true
+
+[user]
+	name = Balint Antal
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDJi9Fk7go7rlgKX1+acIo5Dnl0mjV1hFbPHW/LxvNW5
+	useConfigOnly = true

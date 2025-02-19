@@ -1,0 +1,21 @@
+Match all
+  Include ./conf.d/*.conf
+
+Host *
+  ForwardAgent        no
+  ForwardX11          no
+  ForwardX11Trusted   yes
+  Port                22
+  Protocol            2
+  ServerAliveCountMax 30
+  ServerAliveInterval 60
+  ControlMaster       auto
+  ControlPath         ~/.ssh/._%h_%p_%r
+  ControlPersist      60s
+  IdentityAgent       "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+
+# SSH to AWS via Systems Manager
+Host i-* mi-*
+  ProxyCommand        aws ssm start-session --target $(echo %h | cut -d. -f2) --document-name AWS-StartSSHSession --parameters 'portNumber=%p'
+  User                ec2-user
+  UserKnownHostsFile  /dev/null

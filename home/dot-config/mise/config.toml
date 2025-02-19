@@ -1,0 +1,19 @@
+[env]
+_.source = '{{ cwd }}/.envrc'
+
+[tools]
+awscli    = "latest"
+bun       = "latest"
+cmake     = "latest"
+cocoapods = "latest"
+fly       = "latest"
+golang    = "latest"
+java      = "latest"
+kotlin    = "latest"
+make      = "latest"
+node      = "lts"
+pnpm      = "latest"
+python    = "latest"
+ruby      = "latest"
+rust      = "latest"
+terraform = "latest"
