@@ -1,29 +1,8 @@
 #!/bin/zsh
-export COMPLETION_WAITING_DOTS="false"
-export LC_ALL="en_US.UTF-8"
-
-# Download Znap, if it's not there yet.
-# https://github.com/marlonrichert/zsh-snap
-[[ -r ~/.zshstuff/znap/znap.zsh ]] ||
-  git clone --depth 1 -- \
-    https://github.com/marlonrichert/zsh-snap.git ~/.zshstuff/znap
-source ~/.zshstuff/znap/znap.zsh
-
-# OhMyZSH - https://github.com/ohmyzsh/ohmyzsh
-ZSH_THEME="pygmalion"
-znap source ohmyzsh/ohmyzsh
-znap source ohmyzsh/ohmyzsh plugins/{brew,colored-man-pages,docker,git,macos,mise,virtualenv}
-
-# Plugins
-znap source ael-code/zsh-colored-man-pages
-znap source zsh-users/zsh-autosuggestions
-znap source zsh-users/zsh-syntax-highlighting
-znap source zsh-users/zsh-completions
-
 if [ -f "$HOME/.zshrc.local" ]; then
-  source "$HOME/.zshrc.local"
+  \. "$HOME/.zshrc.local"
 fi
 
-autoload -Uz compinit
-autoload -U add-zsh-hook
-compinit
+for file in $HOME/.zshrc.d/*.zsh; do
+  \. "$file"
+done
