@@ -10,7 +10,7 @@
 [core]
 	autocrlf     = false
 	editor       = vim
-  excludesFile = ~/.gitignore
+	excludesFile = ~/.gitignore
 	ignorecase   = false
 
 [filter "lfs"]
@@ -40,6 +40,6 @@
 	enabled = true
 
 [user]
-	name = Balint Antal
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDJi9Fk7go7rlgKX1+acIo5Dnl0mjV1hFbPHW/LxvNW5
+	name          = Balint Antal
+	signingkey    = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDJi9Fk7go7rlgKX1+acIo5Dnl0mjV1hFbPHW/LxvNW5
 	useConfigOnly = true
