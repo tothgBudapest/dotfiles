@@ -27,4 +27,137 @@
   "workbench.startupEditor": "newUntitledFile",
   // -- unintended changes are applied below -- //
   "": "",
+  "workbench.colorTheme": "Darcula - WebStorm Edition",
+  "ShortcutMenuBar.openFilesList": false,
+  "editor.formatOnType": true,
+  "prettier.requireConfig": true,
+  "[javascript][typescript][json][css][html][markdown][jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "dart.flutterSdkPath": "/Users/tothgergo/.asdf/installs/flutter/3.10.4-stable",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "search.exclude": {
+      "**/.history": true
+  },
+  "ShortcutMenuBar.saveAll": true,
+  "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "ShortcutMenuBar.beautify": false,
+  "accessibility.signals.lineHasBreakpoint": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.chatRequestSent": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.chatResponseReceived": {
+      "sound": "off"
+  },
+  "accessibility.signals.clear": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.onDebugBreak": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.diffLineDeleted": {
+      "sound": "off"
+  },
+  "accessibility.signals.diffLineInserted": {
+      "sound": "off"
+  },
+  "accessibility.signals.diffLineModified": {
+      "sound": "off"
+  },
+  "accessibility.signals.positionHasError": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.lineHasError": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.lineHasFoldedArea": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.lineHasInlineSuggestion": {
+      "sound": "off"
+  },
+  "accessibility.signals.noInlayHints": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.notebookCellCompleted": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.notebookCellFailed": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.progress": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.taskCompleted": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.taskFailed": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.terminalBell": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.terminalCommandFailed": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.terminalCommandSucceeded": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.terminalQuickFix": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.voiceRecordingStarted": {
+      "sound": "off"
+  },
+  "accessibility.signals.voiceRecordingStopped": {
+      "sound": "off"
+  },
+  "accessibility.signals.positionHasWarning": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "accessibility.signals.lineHasWarning": {
+      "sound": "off",
+      "announcement": "auto"
+  },
+  "omnisharp.sdkPath": "/opt/homebrew/bin/dotnet",
+  "omnisharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/Current",
+  "workbench.tree.enableStickyScroll": false,
+  "git.confirmSync": false,
+  "dotnet.server.useOmnisharp": true,
+  "dotnet.dotnetPath": "/opt/homebrew/bin",
+  "ShortcutMenuBar.userButton01Command": "eslint.executeAutofix",
+  "eslint.codeActionsOnSave.rules": null,
+  "editor.codeActionsOnSave": {},
+  "workbench.iconTheme": "vscode-icons",
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "typescript": "typescriptreact"
+  },
+  "editor.quickSuggestions": {
+      "strings": "on"
+  },
 }
