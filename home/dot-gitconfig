@@ -43,3 +43,10 @@
 	name          = Balint Antal
 	signingkey    = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDJi9Fk7go7rlgKX1+acIo5Dnl0mjV1hFbPHW/LxvNW5
 	useConfigOnly = true
+[maintenance]
+	repo = /Users/balintant/.zshstuff/znap
+	repo = /Users/balintant/.zshstuff/ael-code/zsh-colored-man-pages
+	repo = /Users/balintant/.zshstuff/zsh-users/zsh-autosuggestions
+	repo = /Users/balintant/.zshstuff/zsh-users/zsh-completions
+	repo = /Users/balintant/.zshstuff/zsh-users/zsh-history-substring-search
+	repo = /Users/balintant/.zshstuff/zsh-users/zsh-syntax-highlighting
