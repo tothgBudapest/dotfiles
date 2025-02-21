@@ -1,13 +1,13 @@
 #!/bin/zsh
 MISE_UPDATE_FILE=~/.mise_last_update
 if [[ ! -f $MISE_UPDATE_FILE ]] || [[ $(find $MISE_UPDATE_FILE -mtime +7) ]]; then
-  echo -ne "Checking for Mise updates...\r"
+  echo -ne "Checking for Mise updates..."
   mise update >/dev/null 2>&1
-  OUTDATED=$(mise outdated)
+  OUTDATED=$(mise outdated >/dev/null 2>&1)
   if [[ -n "$OUTDATED" ]]; then
-    echo -ne "⛔️ Mise is outdated.        \n"
+    echo -ne "\r⛔️ Mise is outdated.        \n"
   else
-    echo -ne "✅ Mise is up to date.      \n"
+    echo -ne "\r✅ Mise is up to date.      \n"
+    touch $MISE_UPDATE_FILE
   fi
-  touch $MISE_UPDATE_FILE
 fi
