@@ -34,3 +34,5 @@
 [user]
 	name          = Tóth Gergely
 	useConfigOnly = true
+[maintenance]
+	repo = /Users/tothgergo/.zshstuff/znap

@@ -1,0 +1,25 @@
+mv ~/Library/Application\ Support/Code/User/settings.json    ~/Library/Application\ Support/Code/User/settings.json.bkp
+mv ~/Library/Application\ Support/Code/User/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json.bkp
+mv ~/Library/Application\ Support/Code/User/snippets         ~/Library/Application\ Support/Code/User/snippets.bkp
+mv ~/.zshrc       ~/.zshrc.bkp
+mv ~/.zprofile    ~/.zprofile.bkp
+mv ~/.zprofile.d  ~/.zprofile.d.bkp
+mv ~/.asdf        ~/.asdf.bkp
+mv ~/.oh-my-zsh   ~/.oh-my-zsh.bkp
+mv ~/.ssh         ~/.ssh.bkp
+mv ~/.gitconfig   ~/.gitconfig.bkp
+mv ~/.gitignore   ~/.gitignore.bkp
+
+-- ha mar minden mukodik --
+rm -rf \
+    ~/.zshrc.bkp \
+    ~/.zprofile.bkp \
+    ~/.zprofile.d.bkp \
+    ~/.asdf.bkp \
+    ~/.oh-my-zsh.bkp
+
+-- ha mar minden abszolut kurvara fasza --
+rm -rf \
+    ~/Library/Application\ Support/Code/User/settings.json.bkp \
+    ~/Library/Application\ Support/Code/User/keybindings.json.bkp \
+    ~/Library/Application\ Support/Code/User/snippets.bkp
