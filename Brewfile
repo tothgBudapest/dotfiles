@@ -1,3 +1,4 @@
+brew "bat"
 brew "coreutils"
 brew "curl"
 brew "gh"

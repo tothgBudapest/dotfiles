@@ -9,3 +9,10 @@ export ZNAP_NOCOMPILE=1
   git clone --depth 1 -- \
     https://github.com/marlonrichert/zsh-snap.git ~/.zshstuff/znap
 source ~/.zshstuff/znap/znap.zsh
+
+# Auto-Update znap plugins
+ZNAP_UPDATE_FILE=~/.znap_last_update
+if [[ ! -f $ZNAP_UPDATE_FILE ]] || [[ $(find $ZNAP_UPDATE_FILE -mtime +7) ]]; then
+  echo "Updating Znap..."
+  znap pull && touch $ZNAP_UPDATE_FILE
+fi
