@@ -42,6 +42,14 @@ mise install
 [Mise]: https://mise.jdx.dev
 [Stow]: https://www.gnu.org/software/stow/
 
+# Updates
+
+You can update the [./Brewfile]() with the following command:
+
+```
+brew bundle dump --force --file ./Brewfile
+```
+
 # Mention
 
 Check out [LaTotty's dotfiles](https://github.com/latotty/dotfiles) too.
