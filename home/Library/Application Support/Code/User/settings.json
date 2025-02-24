@@ -12,11 +12,11 @@
   ],
   "editor.tabSize": 4,
   "files.insertFinalNewline": true,
-  "git.showCommitInput": false,
+  "git.showCommitInput": true,
   "git.showActionButton": {
-    "commit": false,
+    "commit": true,
     "publish": false,
-    "sync": false,
+    "sync": true,
   },
   "gitlens.keymap": "alternate",
   "mise.configureExtensionsUseSymLinks": true,
@@ -159,5 +159,7 @@
   },
   "editor.quickSuggestions": {
       "strings": "on"
-  },
+},
+"git.autofetch": true,
+"scm.alwaysShowActions": true,
 }

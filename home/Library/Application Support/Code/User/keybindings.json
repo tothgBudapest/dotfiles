@@ -1,6 +1,6 @@
 // Place your key bindings in this file to override the defaults
 [
-    {
+/*     {
         "key": "alt+cmd+down",
         "command": "-quickInput.nextSeparator",
         "when": "inQuickInput && quickInputType == 'quickPick'"
@@ -94,5 +94,5 @@
     {
         "key": "alt+cmd+s",
         "command": "-saveAll"
-    },
+    }, */
 ]

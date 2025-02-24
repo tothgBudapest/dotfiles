@@ -33,6 +33,7 @@
 
 [user]
 	name          = Tóth Gergely
+	email		  = gergofoto@gmail.com
 	useConfigOnly = true
 [maintenance]
 	repo = /Users/tothgergo/.zshstuff/znap
