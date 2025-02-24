@@ -41,3 +41,8 @@ mise install
 [Homebrew]: https://brew.sh
 [Mise]: https://mise.jdx.dev
 [Stow]: https://www.gnu.org/software/stow/
+
+# Mention
+
+Check out [LaTotty's dotfiles](https://github.com/latotty/dotfiles) too.
+We've been revamping our 5+ year old configs together!

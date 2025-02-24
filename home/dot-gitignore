@@ -19,6 +19,7 @@
 .terraform/
 .Trashes
 .VolumeIcon.icns
+.vscode/mise-tools
 *-error.log
 *.DS_Store
 *.local
