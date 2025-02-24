@@ -14,3 +14,6 @@ setopt hist_ignore_space      # ignore commands that start with space
 setopt hist_reduce_blanks     # remove superfluous blanks from each command line being added to the history list
 setopt hist_verify            # show command with history expansion to user before running it
 setopt share_history          # share command history data
+
+export HISTORY_SUBSTRING_SEARCH_ENSURE_UNIQUE="1"
+export HISTORY_SUBSTRING_SEARCH_FUZZY="1"
